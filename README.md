@@ -55,3 +55,7 @@ export default App;
 ```
 
 ## 3 Links
+
+- pages
+  - Home.jsx About.jsx
+  - `<Link to='/path' >PageDescription</Link>`
