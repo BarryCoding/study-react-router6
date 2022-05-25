@@ -63,3 +63,7 @@ export default App;
 
 ## 4 Error Page
 
+## 5 Nested Pages
+
+- App.jsx updated
+
