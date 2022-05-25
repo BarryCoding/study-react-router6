@@ -46,6 +46,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='about' element={<About />} />
         <Route path='products' element={<Products />} />
+        <Route path='*' element={<Products />} />
       </Routes>
     </BrowserRouter>
   );
@@ -59,3 +60,6 @@ export default App;
 - pages
   - Home.jsx About.jsx
   - `<Link to='/path' >PageDescription</Link>`
+
+## 4 Error Page
+
