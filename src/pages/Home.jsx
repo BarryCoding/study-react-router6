@@ -1,9 +1,9 @@
-import {Link} from 'react-router-dom'
+import {Link, Outlet} from 'react-router-dom'
 const Home = () => {
   return (
     <section className='section'>
-      <h2>Home Page</h2>
-      <Link to='/about' className='btn' >About</Link>
+      <h2>Home Shared Content</h2>
+      <Outlet />
     </section>
   );
 };

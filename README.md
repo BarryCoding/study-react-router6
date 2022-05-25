@@ -67,3 +67,7 @@ export default App;
 
 - App.jsx updated
 
+## 6 Shared Layout
+
+- work with nested pages
+- Home.jsx updated
