@@ -76,3 +76,16 @@ export default App;
 
 - add Navbar.jsx
 - update Home.jsx
+
+## 8 Index Route
+
+> ### From Docs
+> - Index routes render in the parent routes outlet at the parent route's path.
+> - Index routes match when a parent route matches but none of the other children match.
+> - Index routes are the default child route for a parent route.
+> - Index routes render when the user hasn't clicked one of the items in a navigation list yet.
+
+- refactor shared layout
+  - add SharedLayout.jsx
+  - update Home.jsx used only as content
+  - update App.jsx
