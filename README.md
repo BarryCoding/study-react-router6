@@ -71,3 +71,8 @@ export default App;
 
 - work with nested pages
 - Home.jsx updated
+
+## 7 Navbar
+
+- add Navbar.jsx
+- update Home.jsx
