@@ -121,3 +121,7 @@ export default App;
 - add ProtectedRoute.jsx
   - works like a higher components
 - update App.jsx
+
+## 14 refactor product route
+- add SharedProductLayout.jsx
+- update App.jsx

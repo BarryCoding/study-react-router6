@@ -3,7 +3,6 @@ import mockData from '../mocks/data';
 const Products = () => {
   return (
     <section className='section'>
-      <h2>Products Page</h2>
       <div className='products'>
         {mockData.map(({ id, name }) => {
           return (

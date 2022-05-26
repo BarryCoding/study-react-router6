@@ -3,8 +3,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import SharedLayout from './pages/SharedLayout';
 import Home from './pages/Home';
 import About from './pages/About';
-import Products from './pages/Products';
 import Error from './pages/Error';
+import SharedProductLayout from './pages/SharedProductLayout';
+import Products from './pages/Products';
 import ProductDtail from './pages/ProductDtail';
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
@@ -19,9 +20,12 @@ function App() {
           <Route index element={<Home />} />
           <Route path='about' element={<About />} />
 
-          {/* without shared layout between Products and ProductDetial */}
-          <Route path='products' element={<Products />} />
-          <Route path='products/:productId' element={<ProductDtail />} />
+          
+          <Route path='products' element={<SharedProductLayout />} >
+
+          <Route index element={<Products />} />
+          <Route path=':productId' element={<ProductDtail />} />
+          </Route>
 
           {/*  */}
           <Route path='login' element={<Login setUser={setUser} />} />
