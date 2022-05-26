@@ -1,9 +1,9 @@
 import { Link, useParams } from 'react-router-dom';
-import mockData from '../mocks/data'
+import mockData from '../mocks/data';
 
-export const ProductDtail = () => {
+const ProductDtail = () => {
   const { productId } = useParams();
-  const {image,name} = mockData.find(data=>data.id === productId)
+  const { image, name } = mockData.find((data) => data.id === productId);
   return (
     <section className='section product'>
       <img src={image} alt={name} />
@@ -12,3 +12,5 @@ export const ProductDtail = () => {
     </section>
   );
 };
+
+export default ProductDtail;

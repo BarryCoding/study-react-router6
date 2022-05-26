@@ -96,12 +96,22 @@ export default App;
 - add StyledNavbar.jsx to replace Navbar.jsx
 - NavLink className={fn} control the active link style
 
-## 10 useParams
+## 10 useParams()
 
 - read URL prarams
-- update app.js 
-- add ProductDetail.js
+- update app.jsx 
+- add ProductDetail.jsx
 
 ## 11 mock data
 
 - add mocks/data.js as products data
+- update Products.jsx
+- update ProductDetial.jsx
+
+## useNavigate()
+
+- add Login.jsx
+- update StyledNavbar.jsx
+- add Dashboard.jsx
+- update app.jsx
+- when login succeed, navigate to dashboard
