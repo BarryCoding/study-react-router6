@@ -89,3 +89,9 @@ export default App;
   - add SharedLayout.jsx
   - update Home.jsx used only as content
   - update App.jsx
+
+## 9 NavLink (className)
+
+- Link when Active has style
+- add StyledNavbar.jsx and replace Navbar.jsx
+- NavLink className={fn} control the active link style
