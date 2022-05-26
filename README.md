@@ -108,10 +108,16 @@ export default App;
 - update Products.jsx
 - update ProductDetial.jsx
 
-## useNavigate()
+## 12 useNavigate()
 
 - add Login.jsx
 - update StyledNavbar.jsx
 - add Dashboard.jsx
 - update app.jsx
 - when login succeed, navigate to dashboard
+
+## 13 protectedRoute
+
+- add ProtectedRoute.jsx
+  - works like a higher components
+- update App.jsx
