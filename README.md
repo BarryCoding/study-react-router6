@@ -92,6 +92,12 @@ export default App;
 
 ## 9 NavLink (className)
 
-- Link when Active has style
-- add StyledNavbar.jsx and replace Navbar.jsx
+- Link when Active has a active style
+- add StyledNavbar.jsx to replace Navbar.jsx
 - NavLink className={fn} control the active link style
+
+## 10 useParams
+
+- read URL prarams
+- update app.js 
+- add ProductDetail.js
