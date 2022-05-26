@@ -101,3 +101,7 @@ export default App;
 - read URL prarams
 - update app.js 
 - add ProductDetail.js
+
+## 11 mock data
+
+- add mocks/data.js as products data
